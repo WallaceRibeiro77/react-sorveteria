@@ -1,9 +1,11 @@
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.png';
+
+import './style.css';
 
 export default function Footer() {
   return (
     <footer>
-      <div>
+      <div className=' limitar-secao container-logo-informacoes'>
         <img src={logo} alt='logomarca'/>
         <div>
           <h3>ENDEREÇO</h3>
@@ -21,7 +23,7 @@ export default function Footer() {
           <p>10:00 - 22:00</p>
         </div>
       </div>
-      <div>
+      <div className='limitar-secao direito-autoral'>
         <p>Gelateria. Orgulhosamente desenvolvido por Wallace Ribeiro</p>
       </div>
     </footer>
